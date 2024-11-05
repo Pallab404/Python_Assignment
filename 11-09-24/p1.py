@@ -1,0 +1,14 @@
+# Problem 1: Fruits and Statements
+# Create a function named list_fruits() that returns the following list of fruits: "Apple", "Banana", "Orange", "Mango".
+
+# Create a function named build_fruit_statement(fruit) which receives a string argument representing a fruit and returns a sentence that starts with the given fruit and ends with " is a delicious fruit."
+
+def list_fruits():
+    return ["Apple", "Banana", "Orange", "Mango"]
+
+def build_fruit_statement(fruit):
+    return (f"{fruit} is a delicious fruit ....")
+
+fruit = list_fruits()
+for i in fruit:
+    print(build_fruit_statement(i))
